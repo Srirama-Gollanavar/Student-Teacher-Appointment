@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Messages</title>
+  <link rel="stylesheet" href="/css/stu-msg.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+<body>
+  <header>
+    <h2>Student-Chat</h2>
+    <a href="/page/stu-dash.html" class="top-link">Dashboard</a>
+  </header>
+
+  <div class="chat-container" id="chatContainer"></div>
+
+  <form id="messageForm">
+    <input type="text" id="messageInput" placeholder="Type your message..." autocomplete="off" />
+    <button type="submit">Send</button>
+  </form>
+
+
+  <script type="module" src="/js/stu-msg.js"></script>
+</body>
+</html>

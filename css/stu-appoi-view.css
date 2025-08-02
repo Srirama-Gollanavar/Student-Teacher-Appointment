@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+}
+
+header {
+  background: #0f172a;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-right-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.top-right-links a,
+.top-right-links button {
+  background: #3a8edb;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.appointments-container {
+  padding: 20px;
+}
+
+.appointment-card {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.appointment-card h3 {
+  margin-top: 0;
+  color: #222;
+}
+
+.appointment-card p {
+  margin: 6px 0;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 12px 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.social-icons {
+  margin-bottom: 8px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 12px;
+  font-size: 22px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #1da1f2; /* Light blue on hover */
+}

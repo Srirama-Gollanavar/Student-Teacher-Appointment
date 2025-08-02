@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Teacher Appointments</title>
+  <link rel="stylesheet" href="/css/tec-appoin.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+<body>
+  <header>
+    <h2>Teacher Dashboard - Appointments</h2>
+    <div id="filters">
+      <button onclick="filterAppointments('all')">All</button>
+      <button onclick="filterAppointments('pending')">Pending</button>
+      <button onclick="filterAppointments('approved')">Approved</button>
+      <button onclick="filterAppointments('rejected')">Rejected</button>
+    </div>
+    <button id="logoutBtn">Dashboard</button>
+  </header>
+
+  <main>
+    <div id="appointmentsContainer"></div>
+  </main>
+<footer class="footer">
+  <div class="social-icons">
+    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://wa.me/" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+  </div>
+  <p>&copy; 2025 Stu-Tech-Appointment. All rights reserved.</p>
+</footer>
+
+  <script type="module" src="/js/tec-appint.js"></script>
+</body>
+</html>

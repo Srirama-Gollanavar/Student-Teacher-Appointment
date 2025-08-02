@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="/css/admin-dash.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+<body>
+  <header>
+    <h1>Admin Dashboard</h1>
+    <button id="logoutBtn"> <a id="logoutBtn" href="/page/home.html">Logout</a></button>
+  </header>
+
+  <main class="container">
+    <!-- TEACHERS -->
+    <section class="card" onclick="redirectTo('/page/add-tech.html')">
+      <h2>Teachers</h2>
+      <p>Admin can add new teachers to the system</p>
+    </section>
+
+    <!-- STUDENT REGISTRATIONS -->
+    <section class="card" onclick="redirectTo('/page/aprove-stu.html')">
+      <h2>Student Registrations</h2>
+      <p>Admin can register new students</p>
+      <div id="registrationList"></div>
+    </section>
+
+    <!-- APPOINTMENTS -->
+    <section class="card" onclick="redirectTo('/page/admin-appoint-view.html')">
+      <h2>Appointments</h2>
+      <p>Admin can view all appointment records</p>
+      <div id="appointmentList"></div>
+    </section>
+
+    <!-- MESSAGES -->
+    <section class="card" onclick="redirectTo('/page/admin-msg.html')">
+      <h2>Messages</h2>
+      <p>Admin can read and respond to all messages</p>
+      <div id="messageList"></div>
+    </section>
+  </main>
+<footer class="footer">
+  <div class="social-icons">
+    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://wa.me/" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+  </div>
+  <p>&copy; 2025 Stu-Tech-Appointment. All rights reserved.</p>
+</footer>
+
+
+  <script type="module" src="/js/admin-dash.js"></script>
+  <script>
+  function redirectTo(page) {
+  window.location.href = page;
+    }
+  </script>
+</body>
+</html>

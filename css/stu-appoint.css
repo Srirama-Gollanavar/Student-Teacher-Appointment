@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  margin: 0;
+  padding: 0;
+}
+
+/* header {
+  background-color: #0f172a;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h2 {
+  margin: 0;
+} */
+ header {
+  height: 80px;
+  background-color: #0f172a;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* .dashboard-link {
+  color: white;
+  text-decoration: none;
+  background: #004d4d;
+  padding: 8px 14px;
+  border-radius: 5px;
+} */
+
+main {
+  max-width: 500px;
+  margin: 40px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+.dashboard-link{
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  background-color: #3a8edb;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+form input,
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  margin-top: 15px;
+  background-color: #3a8edb;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+form button:hover {
+  background-color: #006666;
+}
+
+#confirmationMessage {
+  margin-top: 20px;
+  font-weight: bold;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 12px 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.social-icons {
+  margin-bottom: 8px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 12px;
+  font-size: 22px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #1da1f2; /* Light blue on hover */
+}

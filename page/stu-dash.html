@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Dashboard</title>
+  <link rel="stylesheet" href="/css/stu-dash.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+<body>
+  <header>
+    <h2>Student Dashboard</h2>
+    <button id="logoutBtn">Logout</button>
+  </header>
+
+  <div class="dashboard-container">
+    <div class="card" id="appointmentCard"  onclick="location.href='/page/stu-appoint.html'">
+      <h3>Book Appointment</h3>
+      <p>Schedule a new appointment</p>
+    </div>
+    <div class="card" id="viewCard"  onclick="location.href='/page/stu-appi-view.html'">
+      <h3>View Appointments</h3>
+      <p>Check your previous and upcoming bookings</p>
+    </div>
+    <div class="card" id="messageCard" onclick="location.href='/page/stu-msg.html'">
+      <h3>Messages</h3>
+      <p>See your messages and updates</p>
+    </div>
+  </div>
+<footer class="footer">
+  <div class="social-icons">
+    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://wa.me/" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+  </div>
+  <p>&copy; 2025 Stu-Tech-Appointment. All rights reserved.</p>
+</footer>
+
+  <script src="/js/stu-dash.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to right, #e0c3fc, #8ec5fc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-container {
+  background: #ffffff;
+  padding: 50px;
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  /* width: 90%;
+  max-width: 700px; */
+  height: 300px;
+}
+
+
+
+.home-title {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.card-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #1e90ff;
+  color: white;
+  padding: 30px 55px;         /* increased padding */
+  text-decoration: none;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  min-width: 165px;           /* 120px + 45px */
+  min-height: 90px;           /* estimated height boost */
+  text-align: center;
+}
+
+.card:hover {
+  background-color: #1565c0;
+}

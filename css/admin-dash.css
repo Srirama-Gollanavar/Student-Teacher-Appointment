@@ -1,0 +1,147 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0f172a;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+#logoutBtn {
+  background-color: #3a8edb;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#logoutBtn:hover {
+  background-color: #3a8edb;
+}
+
+.container {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #0f172a;
+  font-size: 20px;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 10px;
+}
+.card {
+  background-color: white;
+  padding: 30px;
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background-color: #f0f8ff;
+}
+
+form input {
+  padding: 10px;
+  margin: 6px 0;
+  width: calc(50% - 10px);
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+}
+
+form button {
+  padding: 10px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+form button:hover {
+  background-color: #1d4ed8;
+}
+
+#teacherList div {
+  background-color: #f8fafc;
+  padding: 10px;
+  border-left: 4px solid #2563eb;
+  margin-top: 10px;
+  border-radius: 6px;
+  position: relative;
+}
+
+#teacherList button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 8px;
+  cursor: pointer;
+}
+
+#teacherList button:hover {
+  background-color: #dc2626;
+}
+
+#addMessage {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 12px 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.social-icons {
+  margin-bottom: 8px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 12px;
+  font-size: 22px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #1da1f2; /* Light blue on hover */
+}

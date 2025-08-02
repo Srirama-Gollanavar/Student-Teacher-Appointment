@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Admin Login</title>
+  <link rel="stylesheet" href="/css/admin-login.css" />
+</head>
+<body>
+  <div class="container">
+    
+    <form id="adminLoginForm">
+      <h1>Admin Login</h1>
+      <input type="email" id="email" placeholder="Admin Email" required />
+      <input type="password" id="password" placeholder="Password" required />
+      <button type="submit">Login</button>
+      <p>Don't have an account? <a href="/page/admin-register.html">Register here</a></p>
+    </form>
+    <p id="loginMsg" class="message"></p>
+  </div>
+
+  <script type="module" src="/js/admin-login.js"></script>
+</body>
+</html>

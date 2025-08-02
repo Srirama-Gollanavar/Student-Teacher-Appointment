@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #0f172a;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.back-btn {
+  color: white;
+  text-decoration: none;
+  background: #3a7bd5;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.list-container {
+  margin-top: 1rem;
+}
+
+.appointment-item {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: #f1f1f1;
+  border-left: 5px solid #4a90e2;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.appointment-item span {
+  display: block;
+  margin-top: 4px;
+}
+
+.action-btns button {
+  margin-left: 8px;
+  margin-bottom: 5px;
+  background: #d9534f;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.action-btns button.approve {
+  background: #5cb85c;
+}
+
+.action-btns button:disabled {
+  background: #999;
+  cursor: not-allowed;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 12px 0;
+}
+
+.social-icons {
+  margin-bottom: 8px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 12px;
+  font-size: 22px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #1da1f2;
+}

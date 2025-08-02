@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Teacher Register</title>
+  <link rel="stylesheet" href="/css/tec-reg.css" />
+</head>
+<body>
+  <div class="container">
+    <form id="registerForm">
+    <h1>Teacher Registration</h1>
+      <input type="text" id="name" placeholder="Full Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="password" id="password" placeholder="Password" required />
+      <button type="submit">Register</button>
+      <p>Already have an account? <a href="/page/tec-login.html">Login</a></p>
+    </form>
+    <p id="message"></p>
+  </div>
+  <script type="module" src="/js/tec-reg.js"></script>
+</body>
+</html>
